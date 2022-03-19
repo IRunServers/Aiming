@@ -49,8 +49,8 @@ local AimingSettings = {
     FOVSettings = {
         Circle = Drawingnew("Circle"),
         Enabled = true,
-        Scale = 60,
-        Sides = 12,
+        Scale = 10,
+        Sides = 100,
         Colour = Color3fromRGB(231, 84, 128)
     },
 
@@ -75,7 +75,7 @@ local AimingSettings = {
     }
 }
 local Aiming = {
-    ShowCredits = true,
+    ShowCredits = false,
     Settings = AimingSettings,
 
     Signals = SignalManager.new(),
