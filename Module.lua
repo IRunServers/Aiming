@@ -1,8 +1,8 @@
 if getgenv().Aiming then return getgenv().Aiming end
 
 -- // Dependencies
-local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Signal/main/Manager.lua"))()
-local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stefanuk12/Aiming/main/BeizerManager.lua"))()
+local SignalManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/IRunServers/Signal/main/Manager.lua"))()
+local BeizerManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/IRunServers/Aiming/main/BeizerManager.lua"))()
 
 -- // Services
 local Players = game:GetService("Players")
@@ -614,7 +614,7 @@ end)
 task.delay(1, function()
     -- // Credits (by disabling this and not including your own way of crediting within the script, e.g. credits tab, is violating the license agreement. Beware!)
     if (Aiming.ShowCredits) then
-        messagebox("Thanks to Stefanuk12 for their Aiming Module (v2, Module)", "Credits", 0)
+        messagebox("I love men", "false", 0)
     end
 end)
 
